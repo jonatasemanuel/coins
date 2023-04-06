@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-    	// Criando a variavel que instanciaremos a entrada de teclado
         Scanner teclado = new Scanner(System.in);
         int opcao;
 
@@ -17,7 +16,6 @@ public class Main {
         System.out.println("Escolha uma operação em seu Cofrinho Bank: ");
         System.out.println("-------------------------------------------");
         
-        // Aqui optei por utilizar de text block, por sugestão da IDE IntellJ
         System.out.println("""
                 1 - Mostrar total
                 2 - Listar moedas
